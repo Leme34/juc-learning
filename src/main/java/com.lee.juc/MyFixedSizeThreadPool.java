@@ -7,6 +7,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * 手写 FixedSizeThreadPool
+ * 线程池原理分析：https://www.javazhiyin.com/41194.html
  */
 public class MyFixedSizeThreadPool {
 
