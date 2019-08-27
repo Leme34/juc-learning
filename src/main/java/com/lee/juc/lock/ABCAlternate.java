@@ -1,4 +1,4 @@
-package com.lee.juc;
+package com.lee.juc.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

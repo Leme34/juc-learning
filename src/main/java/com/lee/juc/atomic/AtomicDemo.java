@@ -1,4 +1,4 @@
-package com.lee.juc;
+package com.lee.juc.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
