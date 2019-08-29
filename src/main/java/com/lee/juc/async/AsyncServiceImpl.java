@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.Future;
 
 /**
+ * 此处是 返回结果的异步任务 案例
+ *
+ * 异步调用原理：
  * 实际是 spring 在扫描 bean 的时候会扫描方法上是否包含@Async的注解，
  * 如果包含的，spring 会为这个 bean 动态的生成一个子类，我们称之为代理类(jdkProxy)，
  * 代理类是继承我们所写的 bean 的，然后把代理类注入进来，那此时，在执行此方法的时候，会到代理类中，

@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb31101a-4872-4693-aa4d-757a699ef468" name="Default Changelist" comment="增加线程池原理分析">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/async/AsyncConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/async/AsyncServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/demo/MyFutureTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/demo/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/demo/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bb31101a-4872-4693-aa4d-757a699ef468" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc-learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.lee.juc/ABCAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/ABCAlternate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.lee.juc/AtomicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/atomic/AtomicDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.lee.juc/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/juc-learning.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/ABCAlternate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/ABCClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/AtomicDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/CallableImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/MyFixedSizeThreadPool$worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/MyFixedSizeThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/ReadWriteLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/ReadWriteLockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/TestThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lee/juc/ThreadDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/juc-learning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/juc/async/AsyncServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/async/AsyncServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +55,6 @@
   <component name="ProjectId" id="1Pz4d9DB5cGKUgURv0DeDT6scrK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -91,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16391753" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="com.jiyuanime.ui.Setting" />
     <property name="settings.editor.splitter.proportion" value="0.22607385" />
   </component>
   <component name="RecentsManager">
@@ -251,7 +225,13 @@
       <workItem from="1558667577361" duration="667000" />
       <workItem from="1561618798504" duration="638000" />
       <workItem from="1564936196879" duration="178000" />
-      <workItem from="1566863678272" duration="3501000" />
+      <workItem from="1566863678272" duration="4542000" />
+      <workItem from="1566910140880" duration="145000" />
+      <workItem from="1566910567258" duration="46000" />
+      <workItem from="1566910699296" duration="755000" />
+      <workItem from="1566918035977" duration="93000" />
+      <workItem from="1566918149738" duration="2448000" />
+      <workItem from="1567044015359" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="增加线程池原理分析">
       <created>1564936283371</created>
@@ -260,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564936283371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加future、async">
+      <created>1566875188050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566875188050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加future、async">
+      <created>1567045612681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567045612681</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -303,7 +297,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -311,6 +307,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加线程池原理分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加线程池原理分析" />
+    <MESSAGE value="增加future、async" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加future、async" />
   </component>
 </project>
