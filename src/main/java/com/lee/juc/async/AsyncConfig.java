@@ -7,7 +7,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 /**
  * 自定义异步任务线程池（可注入多个）配置类
- * 
+ *
  * TODO 需要在启动类上加上@EnableAsync注解
  * 不显式的实现 AsyncConfigurer ，我们可以在Spring环境中配置多个 Executor 类型的 Bean，
  * 在使用 @Async 注解时，将注解的 value 指定为你 Executor 类型的 BeanName，
