@@ -25,7 +25,7 @@ public class IotCallBackController {
             @RequestParam(value = "requestId") String requestId) {
         //生成监听频道Key
         String key = "IOT_" + thingName + "_" + requestId;
-        //模拟实现消息回调
+        //模拟实现消息回调，会触发 IotMessageListener 的 onMessage 方法
         stringRedisTemplate.convertAndSend(key, "this is a redis callback");
         return true;
     }
