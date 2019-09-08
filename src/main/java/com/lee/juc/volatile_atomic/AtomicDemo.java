@@ -1,7 +1,10 @@
-package com.lee.juc.atomic;
+package com.lee.juc.volatile_atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Atomic变量 = volatile + CAS算法（compare and swap）
+ */
 public class AtomicDemo {
 
     public static void main(String[] args) {
