@@ -1,4 +1,4 @@
-package com.lee.juc.lock;
+package com.lee.juc.lock.reentrantlock_and_condition;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
