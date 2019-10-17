@@ -33,7 +33,8 @@ public class VolatileDemo {
                     System.out.println("============");
                     break;
                 }
-            
+            // TODO 加上这句后不会造成死循环，因为输出语句需要时间（与sleep同理），就有机会读取到最新的 isStop，而不再是主线程缓存中的 false
+            //System.out.println("running");
 //            }
         }
 

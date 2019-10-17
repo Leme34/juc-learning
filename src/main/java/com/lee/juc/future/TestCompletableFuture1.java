@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @SuppressWarnings("all")
-public class TestFuture {
+public class TestCompletableFuture1 {
     static ExecutorService executor = Executors.newFixedThreadPool(2);
 
     public static void main(String[] args) throws InterruptedException {
@@ -50,10 +50,10 @@ public class TestFuture {
             System.out.println("小明说：" + e);
         });
 
-        System.out.println("爸：等啊等 西湖美景三月天嘞......");
+        System.out.println("爸：等啊等......");
         System.out.println("爸: 我觉得无聊甚至去了趟厕所。");
         Thread.currentThread().join(9 * 1000);
-        System.out.println("爸：终于给老子买来了......huo 酒");
+        System.out.println("爸：终于给老子买来了......");
         //关闭线程池
         executor.shutdown();
     }

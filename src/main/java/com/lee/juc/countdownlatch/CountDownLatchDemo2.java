@@ -1,4 +1,4 @@
-package com.lee.juc;
+package com.lee.juc.countdownlatch;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -12,7 +12,7 @@ import java.util.concurrent.CountDownLatch;
  * Created by lsd
  * 2019-09-09 00:17
  */
-public class TestCountDownLatch {
+public class CountDownLatchDemo2 {
     // 同时并发执行的线程数
     private final static int THREAD_NUM = 5;
 

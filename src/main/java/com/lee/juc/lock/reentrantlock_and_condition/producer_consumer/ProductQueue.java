@@ -3,6 +3,7 @@ package com.lee.juc.lock.reentrantlock_and_condition.producer_consumer;
 import lombok.Getter;
 
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

@@ -2,18 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb31101a-4872-4693-aa4d-757a699ef468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/reentrantlock_and_condition/producer_consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/reentrantlock_and_condition/producer_consumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/reentrantlock_and_condition/producer_consumer/ProductQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lee.juc/TestSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/countdownlatch/CountDownLatchDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/TestCompletableFuture2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/TestFutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/thread_pool/TestThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/ABCAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/reentrantlock_and_condition/ABCAlternate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lee.juc/CallableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lee.juc/MyFixedSizeThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/thread_pool/MyFixedSizeThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lee.juc/TestCountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/countdownlatch/CountDownLatchDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/TestFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/future/TestCompletableFuture1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/reentrantlock_and_condition/producer_consumer/ProductQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/lock/reentrantlock_and_condition/producer_consumer/ProductQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lee/juc/volatile_atomic/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lee/juc/volatile_atomic/VolatileDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -55,17 +77,18 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/群志WorkSpace/waterOperation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16391753" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.22607385" />
   </component>
   <component name="RecentsManager">
@@ -80,11 +103,11 @@
       <recent name="com.lee" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkPlace\juc-learning\src\main\java\com\lee\juc\test_remote" />
       <recent name="D:\ideaWorkPlace\juc-learning\src\main\java\com\lee\juc\lock\reentrantlock_and_condition" />
       <recent name="D:\ideaWorkPlace\juc-learning\src\main\java\com\lee\juc\lock" />
       <recent name="D:\ideaWorkPlace\juc-learning\src\main\java\com.lee.juc" />
       <recent name="D:\ideaWorkPlace\juc-learning\src\main\java\com\lee\juc\volatile_atomic" />
-      <recent name="D:\ideaWorkPlace\juc-learning\src\main\java\com\lee\redis_listener" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Number">
+  <component name="RunManager" selected="Application.TestFutureTask">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -115,13 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ABCAlternate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lee.juc.lock.reentrantlock_and_condition.ABCAlternate" />
+    <configuration name="CountDownLatchDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.juc.countdownlatch.CountDownLatchDemo1" />
       <module name="juc-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lee.juc.lock.reentrantlock_and_condition.*" />
+          <option name="PATTERN" value="com.lee.juc.countdownlatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lee.Number" />
-      <module name="interview-algorithm" />
+    <configuration name="IdUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.juc.IdUtil" />
+      <module name="juc-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lee.*" />
+          <option name="PATTERN" value="com.lee.juc.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lee.juc.lock.reentrantlock_and_condition.producer_consumer.ProductQueue" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.juc.countdownlatch.Test" />
       <module name="juc-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lee.juc.lock.reentrantlock_and_condition.producer_consumer.*" />
+          <option name="PATTERN" value="com.lee.juc.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lee.juc.TestThreadPool" />
+    <configuration name="TestFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.juc.future.TestFutureTask" />
       <module name="juc-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lee.juc.lock.reentrantlock_and_condition.*" />
+          <option name="PATTERN" value="com.lee.juc.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lee.juc.volatile_atomic.VolatileDemo" />
+    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.juc.TestSynchronized" />
       <module name="juc-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lee.juc.volatile_atomic.*" />
+          <option name="PATTERN" value="com.lee.juc.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,13 +220,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSynchronized(remote)" type="Remote">
+      <module name="juc-learning" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8088" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8088" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Remote">
+      <module name="juc-learning" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8088" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestSynchronized" />
+      <item itemvalue="Application.IdUtil" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.CountDownLatchDemo1" />
+      <item itemvalue="Application.TestFutureTask" />
+      <item itemvalue="Remote.TestSynchronized(remote)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Number" />
-        <item itemvalue="Application.ProductQueue" />
-        <item itemvalue="Application.ABCAlternate" />
-        <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.TestThreadPool" />
+        <item itemvalue="Application.TestFutureTask" />
+        <item itemvalue="Application.CountDownLatchDemo1" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestSynchronized" />
+        <item itemvalue="Application.IdUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +299,19 @@
       <workItem from="1569075044956" duration="17898000" />
       <workItem from="1569331601501" duration="4470000" />
       <workItem from="1569394248353" duration="23000" />
+      <workItem from="1569477407813" duration="3179000" />
+      <workItem from="1569807127268" duration="26265000" />
+      <workItem from="1570036134992" duration="3273000" />
+      <workItem from="1570067177676" duration="1471000" />
+      <workItem from="1570185051258" duration="5144000" />
+      <workItem from="1570209037494" duration="16881000" />
+      <workItem from="1570686989015" duration="3532000" />
+      <workItem from="1570726677726" duration="1433000" />
+      <workItem from="1570808499316" duration="2982000" />
+      <workItem from="1571029281057" duration="12953000" />
+      <workItem from="1571133527208" duration="1379000" />
+      <workItem from="1571145743746" duration="18740000" />
+      <workItem from="1571237568845" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="增加线程池原理分析">
       <created>1564936283371</created>
@@ -295,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567966265483</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add reentrantLock、condition、semaphore">
+      <created>1569477527491</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569477527491</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,11 +389,24 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="增加线程池原理分析" />
     <MESSAGE value="增加future、async" />
     <MESSAGE value="增加注释" />
     <MESSAGE value="add：基于Redis发布订阅实现异步消息系统的同步调用、CompletableFuture相关" />
     <MESSAGE value="add CountDownLatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CountDownLatch" />
+    <MESSAGE value="add reentrantLock、condition、semaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reentrantLock、condition、semaphore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lee/juc/test_remote/TestSynchronized.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
