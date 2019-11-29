@@ -6,11 +6,12 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * execute(Runnable x) 没有返回值。可以执行任务，但无法判断任务是否成功完成。——实现Runnable接口
- * submit(Runnable x) 返回一个future。可以用这个future来判断任务是否成功完成。——实现Callable接口
+ * submit(Callable<T> task) 返回一个future。可以用这个future来判断任务是否成功完成。——实现Callable接口
  */
 public class TestThreadPool {
 
     public static void main(String[] args) {
+
         //1.创建线程池,线程池中包含5个线程
         ExecutorService pool = Executors.newFixedThreadPool(2);
         ThreadDemo2 tpd = new ThreadDemo2();

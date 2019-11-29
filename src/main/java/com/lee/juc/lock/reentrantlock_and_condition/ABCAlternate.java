@@ -29,7 +29,7 @@ public class ABCAlternate {
             for (int i =0;i<10;i++){
                 abc.printC();
             }
-        }, "C").start();
+        }, "Car").start();
     }
 
 }
@@ -76,7 +76,7 @@ class ABCClass {
             }
             // 打印 B
             System.out.println("B");
-            // 修改标记，通知打印 C
+            // 修改标记，通知打印 Car
             flag = 3;
             condition3.signalAll();
         } catch (Exception e) {
@@ -95,7 +95,7 @@ class ABCClass {
                 condition3.await();
             }
             // 打印 A
-            System.out.println("C");
+            System.out.println("Car");
             // 修改标记，通知打印 A
             flag = 1;
             condition1.signalAll();
