@@ -1,4 +1,4 @@
-package com.lee.juc.countdownlatch;
+package com.lee.juc.countdownlatch_cyclicbarrier_semaphore;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

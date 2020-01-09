@@ -51,15 +51,15 @@ public class TestThreadPoolExecutor {
         //执行无返回值线程
         TaskRunnable taskRunnable = new TaskRunnable();
         threadPool.execute(taskRunnable);
-        List<Future<String>> futres = new ArrayList<>();
+        List<Future<String>> futures = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             //执行有返回值线程
             TaskCallable taskCallable = new TaskCallable(i);
             Future<String> future = threadPool.submit(taskCallable);
-            futres.add(future);
+            futures.add(future);
         }
-        for (int i = 0; i < futres.size(); i++) {
-            String result = futres.get(i).get();
+        for (int i = 0; i < futures.size(); i++) {
+            String result = futures.get(i).get();
             System.out.println(i + " result = " + result);
         }
     }
