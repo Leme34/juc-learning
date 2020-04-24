@@ -1,4 +1,4 @@
-package com.lee.juc.interrupt;
+package com.lee.thread.exception;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * 2020-04-23 17:05
  */
 @Slf4j
-public class InterruptLearning {
+public class InterruptExceptionLearning {
 
     /**
      * 阻塞任务（例如sleep）的场景

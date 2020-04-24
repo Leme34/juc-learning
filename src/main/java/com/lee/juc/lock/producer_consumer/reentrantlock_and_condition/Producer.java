@@ -1,4 +1,4 @@
-package com.lee.juc.lock.reentrantlock_and_condition.producer_consumer;
+package com.lee.juc.lock.producer_consumer.reentrantlock_and_condition;
 
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
