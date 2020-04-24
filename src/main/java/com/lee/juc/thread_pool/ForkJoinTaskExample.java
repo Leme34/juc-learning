@@ -1,4 +1,4 @@
-package com.lee.juc;
+package com.lee.juc.thread_pool;
 
 import lombok.extern.slf4j.Slf4j;
 

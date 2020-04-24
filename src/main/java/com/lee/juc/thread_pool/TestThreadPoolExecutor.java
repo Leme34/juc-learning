@@ -28,7 +28,7 @@ public class TestThreadPoolExecutor {
         workQueue = new ArrayBlockingQueue<>(5);//基于数组的先进先出队列，有界
         workQueue = new LinkedBlockingQueue<>();//基于链表的先进先出队列，有界，默认Integer.MAX_VALUE
         workQueue = new PriorityBlockingQueue<>();  //按优先级排序的队列，默认大小11
-        workQueue = new SynchronousQueue<>();//无存储任务的功能，synchronousQueue.size();永远返回0。每次只能放1个任务且直接交付任务，因此put和take会一直阻塞知道交付完成，所以称为同步队列，仅当有足够多的消费者并总有一个消费者准备好消费才适合使用
+        workQueue = new SynchronousQueue<>();//无存储任务的功能(可以理解为队里永远是满的，因此最终都会创建非核心线程来执行任务)，但synchronousQueue.size()永远返回0。每次只能放1个任务且直接交付任务，因此put和take会一直阻塞直到任务交付完成，所以称为同步队列，仅当有足够多的消费者并总有一个消费者准备好消费才适合使用
         //拒绝策略
         RejectedExecutionHandler rejected = null;
         rejected = new ThreadPoolExecutor.AbortPolicy();//默认，队列满了丢任务抛出异常
