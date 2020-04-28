@@ -1,4 +1,4 @@
-package com.lee.juc.lock;
+package com.lee.juc.lock.readwritelock;
 
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
