@@ -1,18 +1,16 @@
-package com.lee.juc.volatile_atomic;
+package com.lee.juc.atomic;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Atomic变量 = volatile + CAS算法（compare and swap）
  */
-public class AtomicDemo {
+public class AtomicIntegerDemo {
 
     public static void main(String[] args) {
         AddTask demo = new AddTask();

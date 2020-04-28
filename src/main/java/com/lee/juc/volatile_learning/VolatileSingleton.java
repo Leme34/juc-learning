@@ -1,4 +1,4 @@
-package com.lee.juc.volatile_atomic;
+package com.lee.juc.volatile_learning;
 
 import lombok.extern.slf4j.Slf4j;
 

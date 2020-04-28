@@ -1,11 +1,7 @@
-package com.lee.juc.volatile_atomic;
+package com.lee.juc.volatile_learning;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListMap;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * 根据Java内存模型的实现，线程在具体执行时，会先拷贝主存数据到线程本地（CPU缓存），操作完成后再把结果从线程本地刷到主存。
