@@ -51,8 +51,10 @@ class Cache1<A, R> implements Task<A, R> {
 /**
  * 使用 ConcurrentHashMap 代替 synchronized
  * <p>
+ * @formatter:off
  * 缺点：1.并发会导致前一个正在计算未放入缓存，其他线程访问又开始一次计算
- * 2.非原子
+ *      2.非原子
+ * @formatter:on
  */
 class Cache2<A, R> implements Task<A, R> {
     private final Task<A, R> task;
@@ -115,7 +117,7 @@ class Cache3<A, R> implements Task<A, R> {
 
 /**
  * 使用 ConcurrentHashMap 的 putIfAbsent 保证原子性 【最终实现】
- *
+ * <p>
  * 缺点：
  * 1.若 future 任务被取消或出错需要清除缓存
  * 2.无法解决缓存清理 和 过期时间问题
