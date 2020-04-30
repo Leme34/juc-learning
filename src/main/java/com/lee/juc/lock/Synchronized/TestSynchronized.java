@@ -1,4 +1,4 @@
-package com.lee.juc.lock;
+package com.lee.juc.lock.Synchronized;
 
 import lombok.extern.slf4j.Slf4j;
 

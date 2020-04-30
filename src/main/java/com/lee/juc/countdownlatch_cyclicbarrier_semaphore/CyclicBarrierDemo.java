@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class CyclicBarrierDemo {
 
     /**
-     * 构造方法参数：屏障阻塞等待的总线程数，屏障打开后执行的任务
+     * 构造方法参数分别是：屏障阻塞等待的总线程数，屏障打开后执行的任务
      * 此处模拟开5个线程并行读取一个大文件，只有当所有线程都读取完成时才能合并文件
      */
     private static CyclicBarrier barrier = new CyclicBarrier(5, () ->

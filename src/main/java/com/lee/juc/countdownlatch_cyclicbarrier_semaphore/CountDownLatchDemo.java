@@ -7,12 +7,14 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 闭锁：只有所有其他线程的操作全部完成时，当前操作才继续执行
- * 此案例实现 计算所有并发线程的总执行时间
+ * 此案例演示CountDownLatch的【一等多】用法，实现计算所有并发线程的总执行时间
+ *
+ * @see com.lee.juc.lock.readwritelock.NonFairReadWriteLock 【多等一】用法示例
  * <p>
  * Created by lsd
  * 2019-09-09 00:17
  */
-public class CountDownLatchDemo2 {
+public class CountDownLatchDemo {
     // 同时并发执行的线程数
     private final static int THREAD_NUM = 5;
 

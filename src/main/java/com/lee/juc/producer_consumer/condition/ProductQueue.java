@@ -1,4 +1,4 @@
-package com.lee.juc.lock.producer_consumer.reentrantlock_and_condition;
+package com.lee.juc.producer_consumer.condition;
 
 import lombok.Getter;
 
@@ -9,6 +9,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 使用 ReentrantLock + Condition 线程安全地解决 生消问题
+ *
+ * @see java.util.concurrent.ArrayBlockingQueue 参考ArrayBlockingQueue的实现
  * <p>
  * Created by lsd
  * 2019-09-22 11:08
@@ -28,8 +30,8 @@ public class ProductQueue<T> {
     // 抢占式的锁对象
     private final Lock lock = new ReentrantLock();
     // 两个 wait-set
-    private Condition full = lock.newCondition();   //队列满了
-    private Condition empty = lock.newCondition();  //队列为空
+    private Condition notFull = lock.newCondition();   //队列满了
+    private Condition notEmpty = lock.newCondition();  //队列为空
 
     // 有参构造
     public ProductQueue(int maxSize) {
@@ -51,7 +53,7 @@ public class ProductQueue<T> {
             //队列满了不生产
             while (count == items.length) {
                 System.out.println("产品队列满了");
-                full.await();  //有点类似于Object.wait,挂起，会释放锁
+                notFull.await();  //有点类似于Object.wait,挂起，会释放锁
             }
             // 放入队列，更新count
             items[tail++] = product;
@@ -61,7 +63,7 @@ public class ProductQueue<T> {
                 tail = 0;
             }
             //有点类似于Object.notifyAll
-            empty.signalAll();
+            notEmpty.signalAll();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -80,7 +82,7 @@ public class ProductQueue<T> {
             // 队列为空不消费
             while (count == 0) {
                 System.out.println("产品队列为空");
-                empty.await();
+                notEmpty.await();
             }
             T item = items[head++];
             count--;
@@ -89,7 +91,7 @@ public class ProductQueue<T> {
                 head = 0;
             }
             //有点类似于Object.notifyAll,挂起，会释放锁
-            full.signalAll();
+            notFull.signalAll();
             return item;
         } catch (Exception e) {
             e.printStackTrace();
@@ -103,7 +105,7 @@ public class ProductQueue<T> {
     /**
      * 1个生产者，2个消费者 的测试
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // 生产者、消费者共用的队列
         ProductQueue<Object> productQueue = new ProductQueue<>();
         // 创建、启动生产者
@@ -111,8 +113,8 @@ public class ProductQueue<T> {
         new Thread(producer).start();
         // 等待所有消费者创建完成
         CountDownLatch countDownLatch = new CountDownLatch(1);
-        for (int i=0;i<2;i++){
-            new Consumer(productQueue,countDownLatch).start();
+        for (int i = 0; i < 2; i++) {
+            new Consumer(productQueue, countDownLatch).start();
         }
         System.out.println("所有消费者创建完成...");
         // 所有消费者开始抢夺产品
