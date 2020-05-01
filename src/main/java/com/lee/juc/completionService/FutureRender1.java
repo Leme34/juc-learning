@@ -1,6 +1,6 @@
 package com.lee.juc.completionService;
 
-import com.lee.juc.future.TestFutureTask;
+import com.lee.juc.future.futuretask.TestFutureTask;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
@@ -44,7 +44,7 @@ public class FutureRender1 {
             Thread.currentThread().interrupt();
             future.cancel(true);
         } catch (ExecutionException e) {
-            throw TestFutureTask.launderThrowable(e.getCause());
+            e.printStackTrace();
         } finally {
             executor.shutdown();
         }

@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
  * Created by lsd
  * 2020-04-29 09:42
  */
-public class CombinedOperation {
+public class CombinedOperationSafely {
 
     private static ConcurrentHashMap<String, Integer> concurrentHashMap = new ConcurrentHashMap<>();
     private static CountDownLatch countDownLatch = new CountDownLatch(1);

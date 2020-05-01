@@ -1,6 +1,5 @@
 package com.lee.juc.completionService;
 
-import com.lee.juc.future.TestFutureTask;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,7 +7,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.List;
 import java.util.concurrent.*;
-import java.util.stream.Collectors;
 
 /**
  * 模拟网页渲染器（CompletionService版本）
@@ -49,7 +47,7 @@ public class FutureRender2 {
             // 恢复中断，因为无需返回结果，所以取消任务
             Thread.currentThread().interrupt();
         } catch (ExecutionException e) {
-            throw TestFutureTask.launderThrowable(e.getCause());
+            e.printStackTrace();
         } finally {
             executor.shutdown();
         }
