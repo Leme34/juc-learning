@@ -1,4 +1,4 @@
-package com.lee.juc.future;
+package com.lee.juc.completablefuture;
 
 import java.util.ArrayList;
 import java.util.List;

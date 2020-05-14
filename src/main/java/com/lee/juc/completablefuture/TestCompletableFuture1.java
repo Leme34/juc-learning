@@ -1,4 +1,4 @@
-package com.lee.juc.future;
+package com.lee.juc.completablefuture;
 
 /**
  * https://juejin.im/post/5d3c46d2f265da1b9163dbce
