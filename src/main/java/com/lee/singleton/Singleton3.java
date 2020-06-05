@@ -1,4 +1,4 @@
-package com.lee.juc.singleton;
+package com.lee.singleton;
 
 /**
  * 描述：     懒汉式（线程不安全）

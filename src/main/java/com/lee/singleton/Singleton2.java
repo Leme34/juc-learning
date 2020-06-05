@@ -1,4 +1,4 @@
-package com.lee.juc.singleton;
+package com.lee.singleton;
 
 /**
  * 描述：     饿汉式（静态代码块）（可用）

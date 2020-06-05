@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
  * AtomicIntegerFieldUpdater 可以把对象【可访问】【非static】的【volatile】属性升级为原子属性
- * 适用场景：类对象中存在少部分属性需要原子的 get-set 操作，又不想对整个类使用原子引用
+ * 适用场景：类对象中存在少部分属性需要原子的 get-set 组合操作，又不想对整个类使用原子引用
  * <p>
  * Created by lsd
  * 2020-04-28 00:25

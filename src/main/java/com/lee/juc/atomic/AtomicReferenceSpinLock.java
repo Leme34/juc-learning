@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public class AtomicReferenceSpinLock {
 
     // 线程对象的原子引用
-    private AtomicReference<Thread> threadAtomicReference = new java.util.concurrent.atomic.AtomicReference<>();
+    private AtomicReference<Thread> threadAtomicReference = new AtomicReference<>();
     private static CountDownLatch countDownLatch = new CountDownLatch(1);
 
     /**

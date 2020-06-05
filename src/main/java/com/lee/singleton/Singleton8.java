@@ -1,4 +1,4 @@
-package com.lee.juc.singleton;
+package com.lee.singleton;
 
 /**
  * 描述：     枚举单例
