@@ -38,6 +38,7 @@ public class LockInterruptibly {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        thread0.interrupt();
         thread1.interrupt();
     }
 
